@@ -8,6 +8,10 @@ body {
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .align {
     align-items: center;
 }
@@ -75,4 +79,102 @@ header nav a {
     border-radius: 15px;
     padding: 5px 15px;
     font-size: 20px;
+}
+
+#banner-cursos {
+    padding: 60px;
+}
+
+#banner-cursos article {
+    width: 300px;
+    margin: 40px;
+    text-align: center;
+}
+
+#banner-cursos img {
+    height: 400px;
+    width: 300px;
+}
+
+#banner-cursos p {
+    margin-bottom: 30px;
+}
+
+#banner-cursos a {
+    text-decoration: none;
+    background-color: #FF4081;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 15px;
+}
+
+#sobre-nos {
+    padding: 60px;
+}
+
+#sobre-nos article {
+    width: 525px;
+    margin: 20px 0px;
+}
+
+#sobre-nos p {
+    width: 400px;
+}
+
+#content {
+    padding: 60px;
+}
+
+.retangulo {
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+}
+
+#content article {
+    width: 250px;
+    margin: 30px 0px;
+}
+
+#content h3 {
+    margin: 10px 0px;
+}
+
+#content p {
+    margin: 5px 0px;
+}
+
+#content nav {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#content a {
+    text-decoration: none;
+    background-color: #E5E5E5;
+    color: #FF4081;
+    border: #FF4081 solid 1px;
+    border-radius: 15px;
+    padding: 5px 25px;
+}
+
+footer {
+    padding: 30px 0px;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+footer a {
+    margin: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    border: solid white 1px;
+    border-radius: 15px;
+    padding: 5px 45px;
+    text-align: center;
 }
