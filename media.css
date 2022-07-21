@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1650px) {
+    #sobre-nos article {
+        width: 600px;
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #banner-cursos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    #banner {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #content-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content {
+        text-align: center;
+        justify-content: center;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+} 
+
+@media only screen and (max-width: 650px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobre-nos article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobre-nos h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner p {
+        font-size: 15px;
+    }
+
+    #banner img {
+        width: 250px;
+    }
+
+    #banner-cursos {
+        padding: 10px;
+    }
+
+    #sobre-nos p {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #banner a {
+        font-size: 15px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header a {
+        font-size: 15px;
+    }
+
+    #banner-cursos article {
+        width: 200px;
+        text-align: center;
+    }
+    
+    #banner-cursos img {
+        height: 300px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #banner a {
+        font-size: 10px;
+    }
+
+    .retangulo {
+        width: 150px;
+        height: 80px;
+        background-color: gray;
+    }
+    
+    #content article {
+        width: 150px;
+        margin: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    footer img {
+        width: 200px;
+    }
+
+    #content a {
+        font-size: 10px;
+    }
+
+    header {
+        padding: 0px;
+    }
+}
