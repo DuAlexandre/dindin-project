@@ -1,3 +1,5 @@
+/* Aqui o Style da página Index */
+
 body {
     font-family: 'Ubuntu', sans-serif;
     padding: 0;
@@ -177,4 +179,39 @@ footer a {
     border-radius: 15px;
     padding: 5px 45px;
     text-align: center;
+}
+
+/* Aqui começa o Style da página Contato */
+
+#formulario {
+    padding: 60px 220px;
+}
+
+#formulario h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#formulario article, form {
+    flex-direction: column;
+}
+
+#formulario form {
+    width: 400px;
+    border-radius: 15px;
+}
+
+#formulario input, textarea {
+    margin: 6px 0px;
+    width: 400px;
+}
+
+#formulario button {
+    background-color: #FF4081;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    
 }
