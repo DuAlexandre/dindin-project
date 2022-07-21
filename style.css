@@ -257,3 +257,33 @@ footer a {
     border-radius: 15px;
     cursor: pointer;
 }
+
+/* Aqui começa o Style da página Blog */
+
+#blog-banner {
+    padding: 60px;
+}
+
+#blog-banner h1 {
+    font-size: 40px;
+}
+
+#blog-banner article {
+    width: 350px;
+}
+
+#blog-content {
+    padding: 60px;
+}
+
+.retangulo2 {
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+}
+
+#blog-content article {
+    width: 500px;
+    margin: 20px 0px;
+    text-align: justify;
+}

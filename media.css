@@ -208,3 +208,42 @@
         width: 250px;
     }
 }
+
+/* Aqui o MediaQuery da página Blog */
+@media only screen and (max-width: 910px) {
+    #blog-banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #blog-content article {
+        width: 250px;
+    }
+
+    .retangulo2 {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #blog-banner h1 {
+        font-size: 20px;
+    }
+
+    #blog-banner article {
+        width: 200px;
+    }
+
+    .retangulo2 {
+        width: 150px;
+        height: 80px;
+    }
+
+    #blog-content article {
+        width: 150px;
+    }
+}
+
