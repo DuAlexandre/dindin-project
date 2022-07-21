@@ -175,3 +175,36 @@
         margin-top: 20px;
     }
 }
+
+/* Aqui o MediaQuery da página Cursos */
+
+@media only screen and (max-width: 1200px) {
+    #course-page article {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #course-page div {
+        flex-direction: column;
+    }
+
+    #course-page {
+        text-align: center;
+    }
+
+    #course-page article {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #course-page img {
+        height: 200px;
+        width: 150px;
+    }
+
+    #course-page article {
+        width: 250px;
+    }
+}
