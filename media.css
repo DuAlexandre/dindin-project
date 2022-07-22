@@ -294,3 +294,33 @@
         width: 200px;
     }
 }
+
+/* Aqui o MediaQuery da página de Post*/
+
+@media only screen and (max-width: 1100px) {
+    #grande-retangulo {
+        width: 800px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #grande-retangulo {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #grande-retangulo {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #grande-retangulo {
+        width: 200px;
+        height: 100px;
+    }
+}
