@@ -210,10 +210,11 @@
 }
 
 /* Aqui o MediaQuery da página Blog */
+
 @media only screen and (max-width: 910px) {
     #blog-banner {
         flex-direction: column;
-        justify-content: center;
+        justify-content: center;    
     }
 }
 
