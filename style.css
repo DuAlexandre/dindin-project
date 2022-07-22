@@ -287,3 +287,42 @@ footer a {
     margin: 20px 0px;
     text-align: justify;
 }
+
+/*Aqui começa a Página de Amostra de Curso */
+
+#banner-invest {
+    padding: 60px;
+}
+
+#banner-invest h1 {
+    font-size: 45px;
+}
+
+#banner-invest article {
+    width: 350px;
+}
+
+#iframe-section {
+    padding: 60px;
+}
+
+#iframe-section article {
+    margin: 30px 0px;
+}
+
+#iframe-section div {
+    width: 450px;
+}
+
+#iframe-section iframe {
+    width: 450px;
+}
+
+#iframe-section h3 {
+    font-size: 25px;
+}
+
+#iframe-section p {
+    font-size: 18px;
+    text-align: justify;
+}
